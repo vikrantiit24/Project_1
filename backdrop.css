@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #b3b3b3;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #1DB954;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+.bookmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bookmark img {
+    width: 32px;
+    height: 32px;
+}
